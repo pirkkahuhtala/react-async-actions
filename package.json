@@ -1,0 +1,50 @@
+{
+  "name": "react-async-actions",
+  "version": "0.0.1",
+  "description": "Hooks for React async actions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirkkahuhtala/react-async-actions"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "storybook": "start-storybook"
+  },
+  "author": "Pirkka Huhtala",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "ramda": "^0.26.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@storybook/addon-storysource": "^5.2.5",
+    "@storybook/react": "^5.2.5",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^5.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "husky": "^2.5.0",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.11.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.11.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
